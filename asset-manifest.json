@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/mbox-movie/static/css/main.2bafd129.css",
-    "main.js": "/mbox-movie/static/js/main.6c35dd31.js",
+    "main.js": "/mbox-movie/static/js/main.d56bf472.js",
     "static/css/362.cc140d3f.chunk.css": "/mbox-movie/static/css/362.cc140d3f.chunk.css",
     "static/js/362.288059b8.chunk.js": "/mbox-movie/static/js/362.288059b8.chunk.js",
-    "static/css/877.e3b1f16b.chunk.css": "/mbox-movie/static/css/877.e3b1f16b.chunk.css",
-    "static/js/877.5b621c16.chunk.js": "/mbox-movie/static/js/877.5b621c16.chunk.js",
+    "static/css/246.e541ec99.chunk.css": "/mbox-movie/static/css/246.e541ec99.chunk.css",
+    "static/js/246.bc3dad1f.chunk.js": "/mbox-movie/static/js/246.bc3dad1f.chunk.js",
     "static/js/278.0ac3bede.chunk.js": "/mbox-movie/static/js/278.0ac3bede.chunk.js",
     "static/js/913.fcb03a74.chunk.js": "/mbox-movie/static/js/913.fcb03a74.chunk.js",
     "static/js/274.1a9c375b.chunk.js": "/mbox-movie/static/js/274.1a9c375b.chunk.js",
@@ -15,19 +15,20 @@
     "static/media/2021.gif": "/mbox-movie/static/media/2021.eb4fa8920be6ef22cc8a.gif",
     "static/media/batmanDesk@1x.png": "/mbox-movie/static/media/batmanDesk@1x.0b04d3ca3e94c8789f82.png",
     "static/media/1.png": "/mbox-movie/static/media/1.06fe176ca2a31f1b445f.png",
-    "static/media/5.png": "/mbox-movie/static/media/5.952fb901c8bc0cdfd54e.png",
     "static/media/3.png": "/mbox-movie/static/media/3.bf879f3df935eb93d177.png",
     "static/media/2.png": "/mbox-movie/static/media/2.90e8b3f19c982499cc36.png",
     "static/media/6.png": "/mbox-movie/static/media/6.c2c7707b8407691b8552.png",
     "static/media/4.png": "/mbox-movie/static/media/4.c16de19f8e4f4253f6fb.png",
+    "static/media/5.png": "/mbox-movie/static/media/5.952fb901c8bc0cdfd54e.png",
+    "static/media/symbol-defs.svg": "/mbox-movie/static/media/symbol-defs.e2a4fa0180de82f0dd8b5067260f5d92.svg",
     "static/media/LogoDesk@2x.png": "/mbox-movie/static/media/LogoDesk@2x.ed3bfca21dfd654f375e.png",
     "index.html": "/mbox-movie/index.html",
     "main.2bafd129.css.map": "/mbox-movie/static/css/main.2bafd129.css.map",
-    "main.6c35dd31.js.map": "/mbox-movie/static/js/main.6c35dd31.js.map",
+    "main.d56bf472.js.map": "/mbox-movie/static/js/main.d56bf472.js.map",
     "362.cc140d3f.chunk.css.map": "/mbox-movie/static/css/362.cc140d3f.chunk.css.map",
     "362.288059b8.chunk.js.map": "/mbox-movie/static/js/362.288059b8.chunk.js.map",
-    "877.e3b1f16b.chunk.css.map": "/mbox-movie/static/css/877.e3b1f16b.chunk.css.map",
-    "877.5b621c16.chunk.js.map": "/mbox-movie/static/js/877.5b621c16.chunk.js.map",
+    "246.e541ec99.chunk.css.map": "/mbox-movie/static/css/246.e541ec99.chunk.css.map",
+    "246.bc3dad1f.chunk.js.map": "/mbox-movie/static/js/246.bc3dad1f.chunk.js.map",
     "278.0ac3bede.chunk.js.map": "/mbox-movie/static/js/278.0ac3bede.chunk.js.map",
     "913.fcb03a74.chunk.js.map": "/mbox-movie/static/js/913.fcb03a74.chunk.js.map",
     "274.1a9c375b.chunk.js.map": "/mbox-movie/static/js/274.1a9c375b.chunk.js.map",
@@ -36,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.2bafd129.css",
-    "static/js/main.6c35dd31.js"
+    "static/js/main.d56bf472.js"
   ]
 }
