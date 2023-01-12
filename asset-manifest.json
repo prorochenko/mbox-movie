@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/mbox-movie/static/css/main.2613fc43.css",
+    "main.js": "/mbox-movie/static/js/main.0b052660.js",
+    "static/css/362.87ffcee2.chunk.css": "/mbox-movie/static/css/362.87ffcee2.chunk.css",
+    "static/js/362.56c26df8.chunk.js": "/mbox-movie/static/js/362.56c26df8.chunk.js",
+    "static/css/182.435cf8bf.chunk.css": "/mbox-movie/static/css/182.435cf8bf.chunk.css",
+    "static/js/182.c2e411d6.chunk.js": "/mbox-movie/static/js/182.c2e411d6.chunk.js",
+    "static/js/278.0ac3bede.chunk.js": "/mbox-movie/static/js/278.0ac3bede.chunk.js",
+    "static/js/913.fcb03a74.chunk.js": "/mbox-movie/static/js/913.fcb03a74.chunk.js",
+    "static/js/274.1a9c375b.chunk.js": "/mbox-movie/static/js/274.1a9c375b.chunk.js",
+    "static/js/35.e2a6192b.chunk.js": "/mbox-movie/static/js/35.e2a6192b.chunk.js",
+    "static/media/LogoDesk@2x.png": "/mbox-movie/static/media/LogoDesk@2x.ed3bfca21dfd654f375e.png",
+    "index.html": "/mbox-movie/index.html",
+    "main.2613fc43.css.map": "/mbox-movie/static/css/main.2613fc43.css.map",
+    "main.0b052660.js.map": "/mbox-movie/static/js/main.0b052660.js.map",
+    "362.87ffcee2.chunk.css.map": "/mbox-movie/static/css/362.87ffcee2.chunk.css.map",
+    "362.56c26df8.chunk.js.map": "/mbox-movie/static/js/362.56c26df8.chunk.js.map",
+    "182.435cf8bf.chunk.css.map": "/mbox-movie/static/css/182.435cf8bf.chunk.css.map",
+    "182.c2e411d6.chunk.js.map": "/mbox-movie/static/js/182.c2e411d6.chunk.js.map",
+    "278.0ac3bede.chunk.js.map": "/mbox-movie/static/js/278.0ac3bede.chunk.js.map",
+    "913.fcb03a74.chunk.js.map": "/mbox-movie/static/js/913.fcb03a74.chunk.js.map",
+    "274.1a9c375b.chunk.js.map": "/mbox-movie/static/js/274.1a9c375b.chunk.js.map",
+    "35.e2a6192b.chunk.js.map": "/mbox-movie/static/js/35.e2a6192b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2613fc43.css",
+    "static/js/main.0b052660.js"
+  ]
+}

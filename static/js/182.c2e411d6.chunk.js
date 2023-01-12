@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmbox_movie=self.webpackChunkmbox_movie||[]).push([[182],{2182:function(e,n,r){r.r(n),r.d(n,{default:function(){return i}});var u="Hero_box__kCgc8",c=r(184),t=function(){return(0,c.jsx)("div",{className:u,children:"hey"})},i=function(){return(0,c.jsx)(c.Fragment,{children:(0,c.jsx)(t,{})})}}}]);
+//# sourceMappingURL=182.c2e411d6.chunk.js.map
