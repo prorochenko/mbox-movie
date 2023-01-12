@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <Provider store={store}>
       <PersistGate loading={<LoadingComponent />} persistor={persistor}> */}
-    <BrowserRouter basename="/mbox">
+    <BrowserRouter basename="/mbox-movie">
       <HelmetProvider>
         <App />
       </HelmetProvider>
