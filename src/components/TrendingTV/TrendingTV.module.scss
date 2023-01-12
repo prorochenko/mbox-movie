@@ -16,6 +16,17 @@
   color: #ffffff;
 
   padding-bottom: 40px;
+  padding-left: 19px;
+  position: relative;
+  &::after {
+    content: '';
+    height: 35px;
+    width: 8px;
+    background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
+    position: absolute;
+    left: calc(50% - 50%);
+    border-radius: 50px;
+  }
 }
 .title__arrow {
   top: 6px;
