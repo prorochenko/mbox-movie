@@ -3,6 +3,7 @@ import TrendingTVfrom from '../../components/TrendingTV/TrendingTV';
 import PopularGenres from '../../components/PopularGenres/PopularGenres';
 import PopularActors from '../../components/PopularActors/PopularActors';
 import CommingSoon from '../../components/CommingSoon/CommingSoon';
+import RegisterNow from '../../components/RegisterNow/RegisterNow';
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <PopularGenres />
       <PopularActors />
       <CommingSoon />
+      <RegisterNow />
     </>
   );
 };

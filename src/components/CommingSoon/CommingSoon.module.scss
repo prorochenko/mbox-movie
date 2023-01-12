@@ -3,8 +3,33 @@
 .box {
   @extend %container;
   background-color: black;
-  background: linear-gradient(to right, #0d1a73, #000000);
+  padding-bottom: 121px;
 }
 
 .background {
+  background: linear-gradient(to right, #0d1a73, #000000);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+
+.rightBar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 31px;
+  color: white;
+}
+
+.text {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 0.3125;
+  text-transform: capitalize;
+
+  color: #ffffff;
 }
