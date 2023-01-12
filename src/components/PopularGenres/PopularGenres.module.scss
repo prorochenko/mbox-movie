@@ -35,9 +35,17 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .romance {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
   border-radius: 20px;
   display: flex;
@@ -55,6 +63,13 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .icon {
   width: 80px;
@@ -62,6 +77,7 @@
 }
 .Drama {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
   border-radius: 20px;
   display: flex;
@@ -79,9 +95,17 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .Historical {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
   border-radius: 20px;
   display: flex;
@@ -99,9 +123,17 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .Action {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(
     109.31deg,
     #fd093f 2.4%,
@@ -124,9 +156,17 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .Scifi {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
   border-radius: 20px;
   display: flex;
@@ -144,9 +184,17 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .Horror {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
   border-radius: 20px;
   display: flex;
@@ -164,9 +212,17 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .Comedy {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
   border-radius: 20px;
   display: flex;
@@ -184,9 +240,17 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
 .Documentary {
   @extend %listButton;
+  cursor: pointer;
   background: linear-gradient(
     109.31deg,
     #1fa2ff 2.4%,
@@ -209,4 +273,11 @@
   text-align: center;
 
   color: #ffffff;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(2px);
+    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
+  }
 }
