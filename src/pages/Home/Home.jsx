@@ -1,5 +1,6 @@
 import Hero from '../../components/HeroSection/Hero';
-import TrendingTVfrom from '../../components/TrendingTV/TrendingTV';
+import TrendingTVShows from '../../components/TrendingTVShows/TrendingTVShows';
+import TrendingTV from '../../components/TrendingTV/TrendingTV';
 import PopularGenres from '../../components/PopularGenres/PopularGenres';
 import PopularActors from '../../components/PopularActors/PopularActors';
 import CommingSoon from '../../components/CommingSoon/CommingSoon';
@@ -10,7 +11,8 @@ const Home = () => {
   return (
     <>
       <Hero />
-      <TrendingTVfrom />
+      <TrendingTVShows />
+      <TrendingTV />
       <PopularGenres />
       <PopularActors />
       <CommingSoon />

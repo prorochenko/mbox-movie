@@ -23,11 +23,11 @@
   transform: translate(0, 0);
 
   &:hover:not(.active) {
-    box-shadow: 0px 3px 15px 1px rgba(252, 132, 45, 0.7);
+    box-shadow: 0px 3px 15px 5px rgba(44, 176, 249, 0.5);
   }
   &:active {
     transform: translateY(-1px);
-    box-shadow: 0px 4px 13px 1px rgba(252, 132, 45, 0.5);
+    box-shadow: 0px 4px 19px 19px rgba(44, 176, 249, 0.5);
   }
 }
 
@@ -54,11 +54,11 @@
   transform: translate(0, 0);
 
   &:hover:not(.active) {
-    box-shadow: 0px 3px 10px rgba(252, 132, 45, 0.7);
+    box-shadow: 0px 3px 10px rgba(44, 176, 249, 0.5);
   }
   &:active {
     transform: translateY(-1px);
-    box-shadow: 0px 4px 13px rgba(252, 132, 45, 0.5);
+    box-shadow: 0px 19px 13px rgba(44, 176, 249, 0.5);
   }
 }
 

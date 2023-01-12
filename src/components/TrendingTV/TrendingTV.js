@@ -12,28 +12,40 @@ const TrendingTV = () => {
     <div className={css.box}>
       <h2 className={css.title}>
         <a href="Popular">
-          Trending TV Shows&nbsp;
+          Trending Movies&nbsp;
           <IoIosArrowForward className={css.title__arrow} />
         </a>
       </h2>
       <ul className={css.list}>
         <li>
-          <img src={Maturing} alt="Maturing" width="206" height="309" />
+          <button type="button" className={css.btnmovie}>
+            <img src={Echo} alt="Maturing" width="206" height="309" />
+          </button>
         </li>
         <li>
-          <img src={Leap} alt="Maturing" width="206" height="309" />
+          <button type="button" className={css.btnmovie}>
+            <img src={Interlock} alt="Maturing" width="206" height="309" />
+          </button>
         </li>
         <li>
-          <img src={Oak} alt="Maturing" width="206" height="309" />
+          <button type="button" className={css.btnmovie}>
+            <img src={Maturing} alt="Maturing" width="206" height="309" />
+          </button>
         </li>
         <li>
-          <img src={Legal} alt="Maturing" width="206" height="309" />
+          <button type="button" className={css.btnmovie}>
+            <img src={Leap} alt="Maturing" width="206" height="309" />
+          </button>
         </li>
         <li>
-          <img src={Interlock} alt="Maturing" width="206" height="309" />
+          <button type="button" className={css.btnmovie}>
+            <img src={Oak} alt="Maturing" width="206" height="309" />
+          </button>
         </li>
         <li>
-          <img src={Echo} alt="Maturing" width="206" height="309" />
+          <button type="button" className={css.btnmovie}>
+            <img src={Legal} alt="Maturing" width="206" height="309" />
+          </button>
         </li>
       </ul>
       <button type="button" className={css.btn}>
