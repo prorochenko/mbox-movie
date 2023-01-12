@@ -14,4 +14,18 @@
   line-height: 0.71;
 
   color: #ffffff;
+
+  padding-bottom: 40px;
+}
+
+.list {
+  padding-bottom: 55px;
+  display: flex;
+  gap: 41px;
+}
+
+.btn {
+  @extend %btnBlue;
+
+  padding: 15px 34px;
 }
