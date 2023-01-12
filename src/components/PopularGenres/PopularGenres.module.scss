@@ -1,0 +1,74 @@
+@import '../../assets/styles/index.scss';
+
+.box {
+  @extend %container;
+  background-color: black;
+  padding-bottom: 76px;
+}
+
+.title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 0.71;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.list {
+  display: flex;
+  gap: 27px;
+  flex-wrap: wrap;
+}
+.romance {
+  @extend %listButton;
+  background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
+  border-radius: 20px;
+}
+
+.Drama {
+  @extend %listButton;
+  background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
+  border-radius: 20px;
+}
+.Historical {
+  @extend %listButton;
+  background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
+  border-radius: 20px;
+}
+.Action {
+  @extend %listButton;
+  background: linear-gradient(
+    109.31deg,
+    #fd093f 2.4%,
+    #fb1378 2.41%,
+    #fccb1a 100%
+  );
+  border-radius: 20px;
+}
+.Scifi {
+  @extend %listButton;
+  background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
+  border-radius: 20px;
+}
+.Horror {
+  @extend %listButton;
+  background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
+  border-radius: 20px;
+}
+.Comedy {
+  @extend %listButton;
+  background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
+  border-radius: 20px;
+}
+.Documentary {
+  @extend %listButton;
+  background: linear-gradient(
+    109.31deg,
+    #1fa2ff 2.4%,
+    #1fa2ff 2.41%,
+    #1f535c 97.46%
+  );
+  border-radius: 20px;
+}

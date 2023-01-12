@@ -1,0 +1,10 @@
+@import '../../assets/styles/index.scss';
+
+.box {
+  @extend %container;
+  background-color: black;
+  background: linear-gradient(to right, #0d1a73, #000000);
+}
+
+.background {
+}

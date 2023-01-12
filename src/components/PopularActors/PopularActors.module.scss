@@ -1,0 +1,36 @@
+@import '../../assets/styles/index.scss';
+
+.box {
+  @extend %container;
+  background-color: black;
+  padding-bottom: 100px;
+}
+
+.title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 0.71;
+  color: #ffffff;
+  padding-bottom: 40px;
+}
+
+.list {
+  display: flex;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.name {
+  padding-top: 20px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.1;
+
+  text-align: center;
+
+  color: #ffffff;
+}
