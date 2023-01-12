@@ -11,7 +11,10 @@ const PopularActors = () => {
   return (
     <div className={css.box}>
       <h2 className={css.title}>
-        Popular Actors $ Directors <IoIosArrowForward />
+        <a href="Popular">
+          Popular Actors & Directors&nbsp;
+          <IoIosArrowForward className={css.title__arrow} />
+        </a>
       </h2>
       <ul className={css.list}>
         <li>

@@ -15,27 +15,90 @@
   color: #ffffff;
   padding-bottom: 40px;
 }
-
+.title__arrow {
+  top: 6px;
+  position: relative;
+}
 .list {
   display: flex;
   gap: 27px;
   flex-wrap: wrap;
 }
+.text {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
 .romance {
   @extend %listButton;
   background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
   border-radius: 20px;
-}
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
 
+  text-align: center;
+
+  color: #ffffff;
+}
+.icon {
+  width: 80px;
+  height: 80px;
+}
 .Drama {
   @extend %listButton;
   background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .Historical {
   @extend %listButton;
   background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .Action {
   @extend %listButton;
@@ -46,21 +109,81 @@
     #fccb1a 100%
   );
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .Scifi {
   @extend %listButton;
   background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .Horror {
   @extend %listButton;
   background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .Comedy {
   @extend %listButton;
   background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
 }
 .Documentary {
   @extend %listButton;
@@ -71,4 +194,19 @@
     #1f535c 97.46%
   );
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+
+  color: #ffffff;
 }

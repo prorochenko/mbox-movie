@@ -11,7 +11,10 @@ const TrendingTV = () => {
   return (
     <div className={css.box}>
       <h2 className={css.title}>
-        Trending TV Shows <IoIosArrowForward />
+        <a href="Popular">
+          Trending TV Shows&nbsp;
+          <IoIosArrowForward className={css.title__arrow} />
+        </a>
       </h2>
       <ul className={css.list}>
         <li>
