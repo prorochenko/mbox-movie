@@ -2,15 +2,19 @@
 
 .box {
   @extend %container;
-  background-color: black;
-  padding-bottom: 100px;
+  background: #101012;
+  padding-bottom: 70px;
+  padding-top: 70px;
   display: flex;
   gap: 84px;
+  justify-content: center;
 }
 
 .logo {
-  width: 294px;
-  height: 148px;
+  @include mq(desk) {
+    width: 157px;
+    height: 70px;
+  }
 }
 
 .list {
@@ -25,4 +29,8 @@
   line-height: 1.1;
 
   color: #c2c2c2;
+}
+
+.item {
+  padding-bottom: 27px;
 }

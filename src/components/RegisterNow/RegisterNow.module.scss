@@ -4,17 +4,23 @@
   @extend %container;
   background-color: black;
   padding-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 84px;
 }
 
 .background {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
   gap: 84px;
   background-image: url('../../assets/images/RegisterNow/1.png');
   height: 270px;
+  width: 1224px;
   background-repeat: no-repeat;
   background-position: center;
+
+  padding-left: 57px;
 }
 
 .title {

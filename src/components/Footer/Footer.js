@@ -28,13 +28,13 @@ const Footer = () => {
       <div>
         <ul className={css.list}>
           <li>
-            <li>
+            <li className={css.item}>
               <a href="Voice">Voice over and Subtitle</a>
             </li>
-            <li>
+            <li className={css.item}>
               <a href="mediacenter">Media Center</a>
             </li>
-            <li>
+            <li className={css.item}>
               <a href="privacy">Privacy</a>
             </li>
             <li>
@@ -42,10 +42,10 @@ const Footer = () => {
             </li>
           </li>
           <li>
-            <li>
+            <li className={css.item}>
               <a href="voice">Voice Description</a>
             </li>
-            <li>
+            <li className={css.item}>
               <a href="investor">Investor Relations</a>
             </li>
             <li>
@@ -53,10 +53,10 @@ const Footer = () => {
             </li>
           </li>
           <li>
-            <li>
+            <li className={css.item}>
               <a href="help">Help Center</a>
             </li>
-            <li>
+            <li className={css.item}>
               <a href="job">Job Opportunities</a>
             </li>
             <li>
@@ -64,10 +64,10 @@ const Footer = () => {
             </li>
           </li>
           <li>
-            <li>
+            <li className={css.item}>
               <a href="gift">Gift Cards</a>
             </li>
-            <li>
+            <li className={css.item}>
               <a href="terms">Terms of Use</a>
             </li>
             <li>
