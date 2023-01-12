@@ -1,0 +1,38 @@
+@import '../../assets/styles/index.scss';
+
+.box {
+  @extend %container;
+
+  @include mq(desk) {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  @include mq(desk) {
+    width: 157px;
+    height: 70px;
+  }
+}
+
+.icons {
+  color: #ffffff;
+  display: flex;
+  gap: 75px;
+}
+
+// .text:active:after {
+//   background-image: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
+//   border-radius: 50px;
+//   background-repeat: no-repeat;
+//   background-size: 100% 2px;
+//   background-position: 5px;
+// }
+.text {
+  display: flex;
+  gap: 54px;
+}
