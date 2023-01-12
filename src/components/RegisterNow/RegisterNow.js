@@ -1,18 +1,16 @@
 import css from './RegisterNow.module.scss';
-import BackgroundRegister from '../../assets/images/RegisterNow/1.png';
 
 const RegisterNow = () => {
   return (
     <div className={css.box}>
       <div className={css.background}>
-        <div>
-          <img
-            src={BackgroundRegister}
-            alt="Maturing"
-            width="739"
-            height="392"
-          />
-        </div>
+        <h2 className={css.title}>
+          Are You New Here ? <br />
+          Don’t wait, Register Now.{' '}
+        </h2>
+        <button type="button" className={css.btn}>
+          Register Now
+        </button>
       </div>
     </div>
   );

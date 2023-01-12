@@ -5,3 +5,35 @@
   background-color: black;
   padding-bottom: 100px;
 }
+
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 84px;
+  background-image: url('../../assets/images/RegisterNow/1.png');
+  height: 270px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: #ffffff;
+  width: 810px;
+  height: 128px;
+
+  // padding: 71px 377px 71px 57px;
+}
+
+.btn {
+  @extend %btnBlue;
+  width: 141px;
+  height: 50px;
+  padding: 15px 18px;
+}

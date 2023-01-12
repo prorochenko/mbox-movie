@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { IoMdNotificationsOutline } from 'react-icons/io';
 import { AiOutlineUserAdd } from 'react-icons/ai';
+import { IconContext } from 'react-icons';
 
 import logoDesk1x from '../../assets/images/LogoDesk@1x.png';
 import logoDesk2x from '../../assets/images/LogoDesk@2x.png';
@@ -59,9 +60,17 @@ const AppBar = () => {
         ))}
       </div>
       <div className={css.icons}>
-        <AiOutlineSearch />
-        <IoMdNotificationsOutline />
-        <AiOutlineUserAdd />
+        <a href="search">
+          {/* <IconContext.Provider value={{ size: '18' }}> */}
+          <AiOutlineSearch className={css.tmp} />
+          {/* </IconContext.Provider> */}
+        </a>
+        <a href="search">
+          <IoMdNotificationsOutline />
+        </a>
+        <a href="search">
+          <AiOutlineUserAdd />
+        </a>
       </div>
     </header>
   );

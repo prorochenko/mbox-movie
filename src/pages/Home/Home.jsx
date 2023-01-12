@@ -4,6 +4,7 @@ import PopularGenres from '../../components/PopularGenres/PopularGenres';
 import PopularActors from '../../components/PopularActors/PopularActors';
 import CommingSoon from '../../components/CommingSoon/CommingSoon';
 import RegisterNow from '../../components/RegisterNow/RegisterNow';
+import Footer from '../../components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <PopularActors />
       <CommingSoon />
       <RegisterNow />
+      <Footer />
     </>
   );
 };
