@@ -27,6 +27,17 @@ const NavItem = styled(NavLink)`
   &.active {
     color: #ffffff;
     opacity: 1;
+    position: relative;
+    &::after {
+      content: '';
+      height: 2px;
+      width: 100%;
+      background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
+      position: absolute;
+      left: calc(50% - 50%);
+      bottom: -5px;
+      border-radius: 50px;
+    }
   }
 
   :hover:not(.active),

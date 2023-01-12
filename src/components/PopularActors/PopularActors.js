@@ -11,6 +11,7 @@ const PopularActors = () => {
   return (
     <div className={css.box}>
       <h2 className={css.title}>
+        <div className={css.line}></div>
         <a href="Popular">
           Popular Actors & Directors&nbsp;
           <IoIosArrowForward className={css.title__arrow} />
