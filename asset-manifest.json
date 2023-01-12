@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/mbox-movie/static/css/main.2613fc43.css",
-    "main.js": "/mbox-movie/static/js/main.0b052660.js",
+    "main.css": "/mbox-movie/static/css/main.2bafd129.css",
+    "main.js": "/mbox-movie/static/js/main.757317b0.js",
     "static/css/362.87ffcee2.chunk.css": "/mbox-movie/static/css/362.87ffcee2.chunk.css",
     "static/js/362.56c26df8.chunk.js": "/mbox-movie/static/js/362.56c26df8.chunk.js",
-    "static/css/182.435cf8bf.chunk.css": "/mbox-movie/static/css/182.435cf8bf.chunk.css",
-    "static/js/182.c2e411d6.chunk.js": "/mbox-movie/static/js/182.c2e411d6.chunk.js",
+    "static/css/997.0e4936a7.chunk.css": "/mbox-movie/static/css/997.0e4936a7.chunk.css",
+    "static/js/997.f12077d6.chunk.js": "/mbox-movie/static/js/997.f12077d6.chunk.js",
     "static/js/278.0ac3bede.chunk.js": "/mbox-movie/static/js/278.0ac3bede.chunk.js",
     "static/js/913.fcb03a74.chunk.js": "/mbox-movie/static/js/913.fcb03a74.chunk.js",
     "static/js/274.1a9c375b.chunk.js": "/mbox-movie/static/js/274.1a9c375b.chunk.js",
-    "static/js/35.e2a6192b.chunk.js": "/mbox-movie/static/js/35.e2a6192b.chunk.js",
+    "static/js/299.4ca28267.chunk.js": "/mbox-movie/static/js/299.4ca28267.chunk.js",
+    "static/js/116.c71de2fc.chunk.js": "/mbox-movie/static/js/116.c71de2fc.chunk.js",
+    "static/media/batmanDesk@2x.png": "/mbox-movie/static/media/batmanDesk@2x.8859a52f6d13b7e30e8a.png",
+    "static/media/batmanDesk@1x.png": "/mbox-movie/static/media/batmanDesk@1x.0b04d3ca3e94c8789f82.png",
     "static/media/LogoDesk@2x.png": "/mbox-movie/static/media/LogoDesk@2x.ed3bfca21dfd654f375e.png",
     "index.html": "/mbox-movie/index.html",
-    "main.2613fc43.css.map": "/mbox-movie/static/css/main.2613fc43.css.map",
-    "main.0b052660.js.map": "/mbox-movie/static/js/main.0b052660.js.map",
+    "main.2bafd129.css.map": "/mbox-movie/static/css/main.2bafd129.css.map",
+    "main.757317b0.js.map": "/mbox-movie/static/js/main.757317b0.js.map",
     "362.87ffcee2.chunk.css.map": "/mbox-movie/static/css/362.87ffcee2.chunk.css.map",
     "362.56c26df8.chunk.js.map": "/mbox-movie/static/js/362.56c26df8.chunk.js.map",
-    "182.435cf8bf.chunk.css.map": "/mbox-movie/static/css/182.435cf8bf.chunk.css.map",
-    "182.c2e411d6.chunk.js.map": "/mbox-movie/static/js/182.c2e411d6.chunk.js.map",
+    "997.0e4936a7.chunk.css.map": "/mbox-movie/static/css/997.0e4936a7.chunk.css.map",
+    "997.f12077d6.chunk.js.map": "/mbox-movie/static/js/997.f12077d6.chunk.js.map",
     "278.0ac3bede.chunk.js.map": "/mbox-movie/static/js/278.0ac3bede.chunk.js.map",
     "913.fcb03a74.chunk.js.map": "/mbox-movie/static/js/913.fcb03a74.chunk.js.map",
     "274.1a9c375b.chunk.js.map": "/mbox-movie/static/js/274.1a9c375b.chunk.js.map",
-    "35.e2a6192b.chunk.js.map": "/mbox-movie/static/js/35.e2a6192b.chunk.js.map"
+    "299.4ca28267.chunk.js.map": "/mbox-movie/static/js/299.4ca28267.chunk.js.map",
+    "116.c71de2fc.chunk.js.map": "/mbox-movie/static/js/116.c71de2fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2613fc43.css",
-    "static/js/main.0b052660.js"
+    "static/css/main.2bafd129.css",
+    "static/js/main.757317b0.js"
   ]
 }
