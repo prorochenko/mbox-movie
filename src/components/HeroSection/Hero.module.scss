@@ -1,13 +1,110 @@
 @import '../../assets/styles/index.scss';
 
 .box {
+  @extend %container;
   display: grid;
-  gap: 20px;
   align-items: end;
-  @include mq(mob-only) {
-    grid-template-columns: 47px 1fr;
+  background-color: black;
+  @include mq(desk) {
+    grid-template-columns: 562px 1fr;
+    padding-top: 126px;
+    padding-bottom: 199px;
   }
-  @include mq(tab) {
-    grid-template-columns: 167px 1fr;
-  }
+}
+
+.text {
+  color: white;
+}
+
+.buttonBlue {
+  @extend %btnBlue;
+  width: 141px;
+  height: 50px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.25;
+}
+
+.buttonWhite {
+  @extend %btnWhite;
+  width: 195px;
+  height: 50px;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #323232;
+}
+
+.title {
+  font-family: 'Marcellus';
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 0.875;
+  color: #ffffff;
+  padding-bottom: 32px;
+}
+
+.text {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #c2c2c2;
+  padding-bottom: 35px;
+}
+
+.dataNumbers {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 0.625;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  color: #ffffff;
+}
+
+.dataAge {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 0.75;
+  padding: 6px 15px;
+
+  border: 1.5px solid transparent;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #326cff, #26fff2) border-box;
+  border-radius: 50px;
+  border: 1.5px solid transparent;
+  color: white;
+}
+
+.dataGroup {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+.data {
+  display: flex;
+  gap: 59px;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.btns {
+  display: flex;
+  gap: 30px;
+}
+
+.picture {
+  // width: 1371px;
+  // height: 766px;
 }

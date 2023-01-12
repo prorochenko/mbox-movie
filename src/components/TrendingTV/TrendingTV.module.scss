@@ -1,0 +1,17 @@
+@import '../../assets/styles/index.scss';
+
+.box {
+  @extend %container;
+  background-color: black;
+  padding-bottom: 60px;
+}
+
+.title {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 0.71;
+
+  color: #ffffff;
+}
