@@ -47,12 +47,12 @@ const Hero = () => {
             of catastrophic proportions.
           </p>
           <div className={css.btns}>
-            <button type="button" className={css.buttonBlue}>
+            <a href="moviepage" target="_blank" className={css.buttonBlue}>
               Watch
-            </button>
-            <button type="button" className={css.buttonWhite}>
+            </a>
+            <a href="moviepage" target="_blank" className={css.buttonWhite}>
               More Information
-            </button>
+            </a>
           </div>
         </div>
         {/* <div className={css.rightBar}> */}
