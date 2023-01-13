@@ -104,3 +104,27 @@
   display: flex;
   gap: 30px;
 }
+
+.mainPic {
+  @include mq(desk) {
+    position: absolute;
+    display: flex;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    left: 50%;
+    top: 100px;
+    align-items: center;
+    margin-left: 0;
+    width: 955px;
+    height: 764px;
+    background-image: url(../../assets/images/batmanDesk@1x.png);
+    background-position: calc(100% - 150px) calc(100% - 100px);
+    background-size: 955px;
+    box-shadow: inset -1em -2em 2em rgba(0, 0, 0, 1),
+      inset 1em 1em 21em rgba(0, 0, 0, 1);
+
+    @include mq(retina) {
+      background-image: url(../../assets/images/batmanDesk@2x.png);
+    }
+  }
+}

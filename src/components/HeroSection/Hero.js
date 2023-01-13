@@ -1,10 +1,27 @@
 import css from './Hero.module.scss';
 import { AiFillStar } from 'react-icons/ai';
 import { IconContext } from 'react-icons';
-import Batman1x from '../../assets/images/batmanDesk@1x.png';
-import Batman2x from '../../assets/images/batmanDesk@2x.png';
+// import Batman1x from '../../assets/images/batmanDesk@1x.png';
+// import Batman2x from '../../assets/images/batmanDesk@2x.png';
 
 const Hero = () => {
+  setTimeout(() => {
+    document.addEventListener('mousemove', parallax);
+
+    const elemMainPic = document.querySelector('#mainPic');
+
+    function parallax(e) {
+      let _mouseX = e.clientX;
+      let _mouseY = e.clientY;
+      elemMainPic.style.transform =
+        'translateX(' +
+        _mouseX / -550 +
+        '%) translateY(' +
+        _mouseY / -500 +
+        '%)';
+    }
+  }, 300);
+
   return (
     <div className={css.box}>
       <div className={css.rightPart}>
@@ -37,8 +54,9 @@ const Hero = () => {
           </button>
         </div>
       </div>
-      <div className={css.picture}>
-        <picture>
+      {/* <div className={css.rightBar}> */}
+      <div id="mainPic" className={css.mainPic}></div>
+      {/* <picture className={css.picture}>
           <source
             srcsset={`${Batman1x} 1x,
                   ${Batman2x} 2x`}
@@ -46,9 +64,9 @@ const Hero = () => {
             media="(min-width: 1280px)"
           />
           <img src={Batman2x} alt="logo" loading="lazy" />
-        </picture>
-      </div>
+        </picture> */}
     </div>
+    // </div>
   );
 };
 
