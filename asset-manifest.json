@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/mbox-movie/static/css/main.2bafd129.css",
-    "main.js": "/mbox-movie/static/js/main.c97e9428.js",
+    "main.js": "/mbox-movie/static/js/main.3db6aaa4.js",
     "static/css/388.96594ce2.chunk.css": "/mbox-movie/static/css/388.96594ce2.chunk.css",
     "static/js/388.c0ae283f.chunk.js": "/mbox-movie/static/js/388.c0ae283f.chunk.js",
-    "static/css/663.684d9dbd.chunk.css": "/mbox-movie/static/css/663.684d9dbd.chunk.css",
-    "static/js/663.de843dc2.chunk.js": "/mbox-movie/static/js/663.de843dc2.chunk.js",
+    "static/css/663.9946e8cb.chunk.css": "/mbox-movie/static/css/663.9946e8cb.chunk.css",
+    "static/js/663.bd4560dc.chunk.js": "/mbox-movie/static/js/663.bd4560dc.chunk.js",
     "static/js/278.0ac3bede.chunk.js": "/mbox-movie/static/js/278.0ac3bede.chunk.js",
     "static/js/913.fcb03a74.chunk.js": "/mbox-movie/static/js/913.fcb03a74.chunk.js",
     "static/js/274.1a9c375b.chunk.js": "/mbox-movie/static/js/274.1a9c375b.chunk.js",
@@ -25,11 +25,11 @@
     "static/media/LogoDesk@2x.png": "/mbox-movie/static/media/LogoDesk@2x.ed3bfca21dfd654f375e.png",
     "index.html": "/mbox-movie/index.html",
     "main.2bafd129.css.map": "/mbox-movie/static/css/main.2bafd129.css.map",
-    "main.c97e9428.js.map": "/mbox-movie/static/js/main.c97e9428.js.map",
+    "main.3db6aaa4.js.map": "/mbox-movie/static/js/main.3db6aaa4.js.map",
     "388.96594ce2.chunk.css.map": "/mbox-movie/static/css/388.96594ce2.chunk.css.map",
     "388.c0ae283f.chunk.js.map": "/mbox-movie/static/js/388.c0ae283f.chunk.js.map",
-    "663.684d9dbd.chunk.css.map": "/mbox-movie/static/css/663.684d9dbd.chunk.css.map",
-    "663.de843dc2.chunk.js.map": "/mbox-movie/static/js/663.de843dc2.chunk.js.map",
+    "663.9946e8cb.chunk.css.map": "/mbox-movie/static/css/663.9946e8cb.chunk.css.map",
+    "663.bd4560dc.chunk.js.map": "/mbox-movie/static/js/663.bd4560dc.chunk.js.map",
     "278.0ac3bede.chunk.js.map": "/mbox-movie/static/js/278.0ac3bede.chunk.js.map",
     "913.fcb03a74.chunk.js.map": "/mbox-movie/static/js/913.fcb03a74.chunk.js.map",
     "274.1a9c375b.chunk.js.map": "/mbox-movie/static/js/274.1a9c375b.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.2bafd129.css",
-    "static/js/main.c97e9428.js"
+    "static/js/main.3db6aaa4.js"
   ]
 }
