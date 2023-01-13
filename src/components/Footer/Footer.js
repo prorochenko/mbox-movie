@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       <div>
         <ul className={css.list}>
-          <li>
+          <ul>
             <li className={css.item}>
               <a href="Voice">Voice over and Subtitle</a>
             </li>
@@ -40,8 +40,8 @@ const Footer = () => {
             <li>
               <a href="contactus">Contact us</a>
             </li>
-          </li>
-          <li>
+          </ul>
+          <ul>
             <li className={css.item}>
               <a href="voice">Voice Description</a>
             </li>
@@ -51,8 +51,8 @@ const Footer = () => {
             <li>
               <a href="legal">Legal Provisions</a>
             </li>
-          </li>
-          <li>
+          </ul>
+          <ul>
             <li className={css.item}>
               <a href="help">Help Center</a>
             </li>
@@ -62,8 +62,8 @@ const Footer = () => {
             <li>
               <a href="cookies">Cookies Preferences</a>
             </li>
-          </li>
-          <li>
+          </ul>
+          <ul>
             <li className={css.item}>
               <a href="gift">Gift Cards</a>
             </li>
@@ -73,7 +73,7 @@ const Footer = () => {
             <li>
               <a href="corpinformation">Corporate Informations</a>
             </li>
-          </li>
+          </ul>
         </ul>
       </div>
     </div>
