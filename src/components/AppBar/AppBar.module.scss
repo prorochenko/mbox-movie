@@ -5,11 +5,19 @@
 
   @include mq(desk) {
     box-shadow: var(--header-boxShadow);
+    background-color: var(--background-main);
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    transition: 1s;
   }
+}
+.header_hidden {
+  transform: translateY(-100%);
 }
 
 .logo {
@@ -29,13 +37,7 @@
 .icon-size {
   height: 2em;
 }
-// .text:active:after {
-//   background-image: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
-//   border-radius: 50px;
-//   background-repeat: no-repeat;
-//   background-size: 100% 2px;
-//   background-position: 5px;
-// }
+
 .text {
   display: flex;
   gap: 54px;
