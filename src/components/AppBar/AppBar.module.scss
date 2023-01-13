@@ -1,6 +1,6 @@
 @import '../../assets/styles/index.scss';
 
-.box {
+.header {
   @extend %container;
 
   @include mq(desk) {
@@ -10,14 +10,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 9;
     transition: 1s;
   }
-}
-.header_hidden {
-  transform: translateY(-100%);
 }
 
 .logo {
