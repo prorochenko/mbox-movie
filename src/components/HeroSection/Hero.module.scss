@@ -119,16 +119,16 @@
     background-repeat: no-repeat;
     background-size: 100%;
     padding-top: 0;
-    left: 40%;
+    left: calc(100vw - 955px);
     top: 100px;
-    align-items: center;
-    margin-left: 0;
-    width: 955px;
+    // align-items: center;
+    min-width: 955px;
     height: 764px;
     background-image: url(../../assets/images/batmanDesk@1x.png);
-    // background-position: calc(100% - 150px) calc(100% - 100px);
+    // background-position: calc(100% + 330px) calc(100% - 100px);
     z-index: 0;
-    background-size: 955px;
+
+    // background-size: 955px;
     box-shadow: var(--boxShadow-hero-mainPicture);
     @include mq(retina) {
       background-image: url(../../assets/images/batmanDesk@2x.png);
