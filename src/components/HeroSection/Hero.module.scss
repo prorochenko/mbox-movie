@@ -110,15 +110,16 @@
     position: absolute;
     display: flex;
     background-repeat: no-repeat;
+    background-size: 100%;
     padding-top: 0;
-    left: 50%;
+    left: 40%;
     top: 100px;
     align-items: center;
     margin-left: 0;
     width: 955px;
     height: 764px;
     background-image: url(../../assets/images/batmanDesk@1x.png);
-    background-position: calc(100% - 150px) calc(100% - 100px);
+    // background-position: calc(100% - 150px) calc(100% - 100px);
     background-size: 955px;
     box-shadow: inset -1em -2em 2em rgba(0, 0, 0, 1),
       inset 1em 1em 21em rgba(0, 0, 0, 1);
