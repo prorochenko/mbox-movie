@@ -10,13 +10,16 @@
   background: linear-gradient(to right, #0d1a73, #000000);
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
+  justify-items: start;
   align-items: center;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .leftBar {
   display: flex;
   align-items: left;
+  cursor: pointer;
+  border-radius: 20px 0px 0px 20px;
 }
 
 .rightBar {
@@ -26,6 +29,8 @@
   justify-content: center;
   gap: 31px;
   color: white;
+  padding-left: 142px;
+  cursor: pointer;
 }
 
 .text {

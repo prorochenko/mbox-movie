@@ -6,8 +6,14 @@ const CommingSoon = () => {
   return (
     <div className={css.box}>
       <div className={css.background}>
-        <div className={css.leftBar}>
-          <img src={Bunny} alt="Maturing" width="739" height="392" />
+        <div>
+          <img
+            src={Bunny}
+            alt="Maturing"
+            width="739"
+            height="392"
+            className={css.leftBar}
+          />
         </div>
         <div className={css.rightBar}>
           <img src={year} alt="Maturing" width="294" height="148" />

@@ -2,6 +2,7 @@
 
 .box {
   @extend %container;
+  padding-top: 62px;
   background-color: black;
   padding-bottom: 60px;
 }
@@ -25,9 +26,6 @@
     left: calc(50% - 50%);
     border-radius: 50px;
   }
-}
-
-.line {
 }
 
 .title__arrow {

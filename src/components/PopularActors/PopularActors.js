@@ -18,27 +18,27 @@ const PopularActors = () => {
         </a>
       </h2>
       <ul className={css.list}>
-        <li>
+        <li className={css.actor}>
           <img src={Samanta} alt="Maturing" width="190" height="190" />
           <p className={css.name}>Samantha Bowen</p>
         </li>
-        <li>
+        <li className={css.actor}>
           <img src={Rhys} alt="Maturing" width="190" height="190" />
           <p className={css.name}>Rhys Birch</p>
         </li>
-        <li>
+        <li className={css.actor}>
           <img src={James} alt="Maturing" width="190" height="190" />
           <p className={css.name}>James Holloway</p>
         </li>
-        <li>
+        <li className={css.actor}>
           <img src={Jashua} alt="Maturing" width="190" height="190" />
           <p className={css.name}>Joshua Walton</p>
         </li>
-        <li>
+        <li className={css.actor}>
           <img src={Patrick} alt="Maturing" width="190" height="190" />
           <p className={css.name}>Patrick Elliott</p>
         </li>
-        <li>
+        <li className={css.actor}>
           <img src={Morgan} alt="Maturing" width="190" height="190" />
           <p className={css.name}>Morgan O'Neill</p>
         </li>
