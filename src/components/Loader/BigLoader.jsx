@@ -25,7 +25,7 @@ const BigLoader = props => (
     width={1280}
     height={800}
     viewBox="0 0 1280 800"
-    backgroundColor="#f3f3f3"
+    backgroundColor="#326CFF"
     foregroundColor="#ecebeb"
     {...props}
   >

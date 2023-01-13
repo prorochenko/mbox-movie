@@ -4,7 +4,7 @@ import css from './Loader.module.scss';
 export default function LoadingComponent() {
   return (
     <div className={css.loader}>
-      <PulseLoader color="#fc842d" />
+      <PulseLoader color="#326CFF" />
     </div>
   );
 }
