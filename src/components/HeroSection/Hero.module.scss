@@ -4,13 +4,18 @@
   @extend %container;
   display: grid;
   align-items: end;
-  background-color: var(--background-main);
   @include mq(desk) {
     grid-template-columns: 562px 1fr;
     padding-top: 126px;
     padding-bottom: 199px;
-    border-bottom: 2px solid var(--hero-borderBottom);
+    // border-bottom: 2px solid var(--hero-borderBottom);
   }
+}
+
+.bottom {
+  border-bottom: 2px solid var(--hero-borderBottom);
+  z-index: 999;
+  position: relative;
 }
 
 .text {
@@ -122,10 +127,9 @@
     height: 764px;
     background-image: url(../../assets/images/batmanDesk@1x.png);
     // background-position: calc(100% - 150px) calc(100% - 100px);
-    z-index: 1;
+    z-index: 0;
     background-size: 955px;
     box-shadow: var(--boxShadow-hero-mainPicture);
-
     @include mq(retina) {
       background-image: url(../../assets/images/batmanDesk@2x.png);
     }
