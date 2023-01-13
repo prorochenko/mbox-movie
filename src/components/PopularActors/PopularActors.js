@@ -19,28 +19,40 @@ const PopularActors = () => {
       </h2>
       <ul className={css.list}>
         <li className={css.actor}>
-          <img src={Samanta} alt="Maturing" width="190" height="190" />
-          <p className={css.name}>Samantha Bowen</p>
+          <a href="samanta" target="_blank">
+            <img src={Samanta} alt="Samanta" width="190" height="190" />
+            <p className={css.name}>Samantha Bowen</p>
+          </a>
         </li>
         <li className={css.actor}>
-          <img src={Rhys} alt="Maturing" width="190" height="190" />
-          <p className={css.name}>Rhys Birch</p>
+          <a href="rhys" target="_blank">
+            <img src={Rhys} alt="Rhys" width="190" height="190" />
+            <p className={css.name}>Rhys Birch</p>
+          </a>
         </li>
         <li className={css.actor}>
-          <img src={James} alt="Maturing" width="190" height="190" />
-          <p className={css.name}>James Holloway</p>
+          <a href="james" target="_blank">
+            <img src={James} alt="James" width="190" height="190" />
+            <p className={css.name}>James Holloway</p>
+          </a>
         </li>
         <li className={css.actor}>
-          <img src={Jashua} alt="Maturing" width="190" height="190" />
-          <p className={css.name}>Joshua Walton</p>
+          <a href="jashua" target="_blank">
+            <img src={Jashua} alt="Jashua" width="190" height="190" />
+            <p className={css.name}>Joshua Walton</p>
+          </a>
         </li>
         <li className={css.actor}>
-          <img src={Patrick} alt="Maturing" width="190" height="190" />
-          <p className={css.name}>Patrick Elliott</p>
+          <a href="patrick" target="_blank">
+            <img src={Patrick} alt="Patrick" width="190" height="190" />
+            <p className={css.name}>Patrick Elliott</p>
+          </a>
         </li>
         <li className={css.actor}>
-          <img src={Morgan} alt="Maturing" width="190" height="190" />
-          <p className={css.name}>Morgan O'Neill</p>
+          <a href="morgan" target="_blank">
+            <img src={Morgan} alt="Morgan" width="190" height="190" />
+            <p className={css.name}>Morgan O'Neill</p>
+          </a>
         </li>
       </ul>
     </div>
