@@ -3,29 +3,12 @@
 .box {
   @extend %container;
   padding-top: 62px;
-  background-color: black;
+  background-color: var(--background-main);
   padding-bottom: 60px;
 }
 
 .title {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 0.71;
-  color: #ffffff;
-  padding-bottom: 40px;
-  padding-left: 19px;
-  position: relative;
-  &::after {
-    content: '';
-    height: 35px;
-    width: 8px;
-    background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
-    position: absolute;
-    left: calc(50% - 50%);
-    border-radius: 50px;
-  }
+  @extend %titleOfComponents;
 }
 
 .title__arrow {

@@ -2,29 +2,12 @@
 
 .box {
   @extend %container;
-  background-color: black;
+  background-color: var(--background-main);
   padding-bottom: 76px;
 }
 
 .title {
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 0.71;
-  color: #ffffff;
-  padding-bottom: 40px;
-  padding-left: 19px;
-  position: relative;
-  &::after {
-    content: '';
-    height: 35px;
-    width: 8px;
-    background: linear-gradient(316.53deg, #26fff2 13.2%, #326cff 71.54%);
-    position: absolute;
-    left: calc(50% - 50%);
-    border-radius: 50px;
-  }
+  @extend %titleOfComponents;
 }
 .title__arrow {
   top: 6px;
@@ -35,52 +18,21 @@
   gap: 27px;
   flex-wrap: wrap;
 }
+
 .text {
   font-family: 'Mulish';
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
   line-height: 20px;
-  /* identical to box height, or 71% */
-
   text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  color: var(--second-text-color);
 }
 .romance {
   @extend %listButton;
   cursor: pointer;
   background: linear-gradient(109.31deg, #fd093f 2.4%, #f383f1 100%);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }
 .icon {
   width: 80px;
@@ -90,57 +42,13 @@
   @extend %listButton;
   cursor: pointer;
   background: linear-gradient(114.5deg, #0fffda 2.22%, #3cdb77 68.84%);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }
 .Historical {
   @extend %listButton;
   cursor: pointer;
   background: linear-gradient(109.31deg, #b936ff 2.4%, #57deda 100%);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }
 .Action {
   @extend %listButton;
@@ -151,113 +59,25 @@
     #fb1378 2.41%,
     #fccb1a 100%
   );
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }
 .Scifi {
   @extend %listButton;
   cursor: pointer;
   background: linear-gradient(109.31deg, #ff6472 2.4%, #fda75d 100%);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }
 .Horror {
   @extend %listButton;
   cursor: pointer;
   background: linear-gradient(110.16deg, #13547a 2.37%, #80d0c7 96.77%);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }
 .Comedy {
   @extend %listButton;
   cursor: pointer;
   background: linear-gradient(109.93deg, #fff77b 2.37%, #ffbf42 50%);
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }
 .Documentary {
   @extend %listButton;
@@ -268,27 +88,5 @@
     #1fa2ff 2.41%,
     #1f535c 97.46%
   );
-  border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  font-family: 'Mulish';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 20px;
-  /* identical to box height, or 71% */
-
-  text-align: center;
-
-  color: #ffffff;
-  &:hover:not(.active) {
-    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
-  }
-  &:active {
-    transform: translateY(2px);
-    box-shadow: 1px 4px 3px 4px rgba(44, 176, 249, 0.5);
-  }
+  @extend %btnGenres;
 }

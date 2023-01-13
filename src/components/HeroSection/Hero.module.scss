@@ -4,12 +4,12 @@
   @extend %container;
   display: grid;
   align-items: end;
-  background-color: black;
+  background-color: var(--background-main);
   @include mq(desk) {
     grid-template-columns: 562px 1fr;
     padding-top: 126px;
     padding-bottom: 199px;
-    border-bottom: 2px solid #2f2e2e;
+    border-bottom: 2px solid var(--hero-borderBottom);
   }
 }
 
@@ -37,7 +37,7 @@
   font-weight: 800;
   font-size: 16px;
   line-height: 1.25;
-  color: #323232;
+  color: var(--btn-text-white-hero);
 }
 
 .title {
@@ -45,7 +45,7 @@
   font-weight: 400;
   font-size: 80px;
   line-height: 0.875;
-  color: #ffffff;
+  color: var(--second-text-color);
   padding-bottom: 32px;
 }
 
@@ -58,7 +58,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
-  color: #c2c2c2;
+  color: var(--main-text-color);
   padding-bottom: 35px;
 }
 
@@ -72,7 +72,7 @@
   align-items: center;
   gap: 12px;
 
-  color: #ffffff;
+  color: var(--second-text-color);
 }
 
 .dataAge {
@@ -84,11 +84,10 @@
   padding: 6px 15px;
 
   border: 1.5px solid transparent;
-  background: linear-gradient(black, black) padding-box,
-    linear-gradient(to right, #326cff, #26fff2) border-box;
+  background: var(--gradient-hero-warning);
   border-radius: 50px;
   border: 1.5px solid transparent;
-  color: white;
+  color: var(--second-text-color);
 }
 
 .dataGroup {
@@ -125,8 +124,7 @@
     // background-position: calc(100% - 150px) calc(100% - 100px);
     z-index: 1;
     background-size: 955px;
-    box-shadow: inset -1em -2em 2em rgba(0, 0, 0, 1),
-      inset 1em 1em 21em rgba(0, 0, 0, 1);
+    box-shadow: var(--boxShadow-hero-mainPicture);
 
     @include mq(retina) {
       background-image: url(../../assets/images/batmanDesk@2x.png);

@@ -1,16 +1,13 @@
 :root {
-  --main-text-color: #9b9faa;
-  --accent-text-color: #212121;
-  --main-accent-color: #fc842d;
-  --main-background-color: #e5e5e5;
-  --secondary-background-color: #f0f1f3;
-  --accent-background-color: #264061;
-  --secondary-text-color: #ffffff;
-  --item-list-color: #9b9faa;
-
-  // Modal window
-  --modal-background-color: rgba(33, 33, 33, 0.12);
-  --modal-box-shadow: 0px 22px 40px rgba(0, 0, 0, 0.1);
-  --modal-small-box-border: #e0e0e0;
-  --modal-mobile-background: #eff1f3;
+  --main-text-color: #c2c2c2;
+  --background-main: #101012;
+  --header-icons: #ffffff;
+  --gradient-comingSoon: linear-gradient(to right, #0d1a73, #000000);
+  --second-text-color: #ffffff;
+  --hero-borderBottom: #2f2e2e;
+  --btn-text-white-hero: #323232;
+  --gradient-hero-warning: linear-gradient(black, black) padding-box,
+    linear-gradient(to right, #326cff, #26fff2) border-box;
+  --boxShadow-hero-mainPicture: inset -1em -2em 2em rgba(0, 0, 0, 1),
+    inset 1em 1em 21em rgba(0, 0, 0, 1);
 }

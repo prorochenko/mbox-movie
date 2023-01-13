@@ -2,12 +2,12 @@
 
 .box {
   @extend %container;
-  background-color: black;
+  background-color: var(--background-main);
   padding-bottom: 121px;
 }
 
 .background {
-  background: linear-gradient(to right, #0d1a73, #000000);
+  background: var(--gradient-comingSoon);
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: start;
@@ -28,7 +28,7 @@
   flex-direction: column;
   justify-content: center;
   gap: 31px;
-  color: white;
+  color: var(--second-text-color);
   padding-left: 142px;
   cursor: pointer;
 }
@@ -41,5 +41,5 @@
   line-height: 0.3125;
   text-transform: capitalize;
 
-  color: #ffffff;
+  color: var(--second-text-color);
 }
