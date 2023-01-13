@@ -18,34 +18,34 @@ const TrendingTVShows = () => {
       </h2>
       <ul className={css.list}>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Later} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="later" target="_blank" className={css.btnmovie}>
+            <img src={Later} alt="Later" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Man} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="man" target="_blank" className={css.btnmovie}>
+            <img src={Man} alt="Man" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Dunkirk} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="dunkirk" target="_blank" className={css.btnmovie}>
+            <img src={Dunkirk} alt="Dunkirk" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Enormity} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="enormity" target="_blank" className={css.btnmovie}>
+            <img src={Enormity} alt="Enormity" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Vanitas} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="vanitas" target="_blank" className={css.btnmovie}>
+            <img src={Vanitas} alt="Vanitas" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Something} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="something" target="_blank" className={css.btnmovie}>
+            <img src={Something} alt="Something" width="206" height="309" />
+          </a>
         </li>
       </ul>
     </div>

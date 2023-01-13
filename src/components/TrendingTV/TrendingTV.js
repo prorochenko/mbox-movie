@@ -18,39 +18,39 @@ const TrendingTV = () => {
       </h2>
       <ul className={css.list}>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Echo} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="echo" target="_blank" className={css.btnmovie}>
+            <img src={Echo} alt="Echo" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Interlock} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="interlock" target="_blank" className={css.btnmovie}>
+            <img src={Interlock} alt="Interlock" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
+          <a href="maturing" target="_blank" className={css.btnmovie}>
             <img src={Maturing} alt="Maturing" width="206" height="309" />
-          </button>
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
+          <a href="horror" target="_blank" className={css.btnmovie}>
             <img src={Leap} alt="Maturing" width="206" height="309" />
-          </button>
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Oak} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="oak" target="_blank" className={css.btnmovie}>
+            <img src={Oak} alt="Oak" width="206" height="309" />
+          </a>
         </li>
         <li>
-          <button type="button" className={css.btnmovie}>
-            <img src={Legal} alt="Maturing" width="206" height="309" />
-          </button>
+          <a href="legal" target="_blank" className={css.btnmovie}>
+            <img src={Legal} alt="Legal" width="206" height="309" />
+          </a>
         </li>
       </ul>
-      <button type="button" className={css.btn}>
+      <a href="trendingtv" target="_blank" className={css.btn}>
         See more
-      </button>
+      </a>
     </div>
   );
 };
