@@ -24,6 +24,12 @@
 
 .actor {
   cursor: pointer;
+  &:hover:not(.active) {
+    filter: drop-shadow(0px 0px 20px rgba(44, 176, 249, 0.5));
+  }
+  &:active {
+    transform: translateY(-1px);
+  }
 }
 .name {
   padding-top: 20px;
