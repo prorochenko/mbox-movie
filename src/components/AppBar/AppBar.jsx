@@ -4,6 +4,8 @@ import styled from 'styled-components';
 import { AiOutlineSearch } from 'react-icons/ai';
 import { IoMdNotificationsOutline } from 'react-icons/io';
 import { AiOutlineUserAdd } from 'react-icons/ai';
+import { HidingHeader } from 'hiding-header-react';
+import 'hiding-header/dist/style.css';
 
 import logoDesk1x from '../../assets/images/LogoDesk@1x.png';
 import logoDesk2x from '../../assets/images/LogoDesk@2x.png';
@@ -48,40 +50,42 @@ const NavItem = styled(NavLink)`
 
 const AppBar = () => {
   return (
-    <header className={css.header}>
-      <div className={css.logo}>
-        <NavLink to="/">
-          <picture>
-            <source
-              srcsset={`${logoDesk1x} 1x,
+    <HidingHeader>
+      <header className={css.header}>
+        <div className={css.logo}>
+          <NavLink to="/">
+            <picture>
+              <source
+                srcsset={`${logoDesk1x} 1x,
                   ${logoDesk2x} 2x`}
-              type="image/png"
-              media="(min-width: 1280px)"
-            />
-            <img src={logoDesk2x} alt="logo" loading="lazy" />
-          </picture>
-        </NavLink>
-      </div>
+                type="image/png"
+                media="(min-width: 1280px)"
+              />
+              <img src={logoDesk2x} alt="logo" loading="lazy" />
+            </picture>
+          </NavLink>
+        </div>
 
-      <div className={css.text}>
-        {navItems.map(({ href, text }) => (
-          <NavItem to={href} key={href}>
-            {text}
-          </NavItem>
-        ))}
-      </div>
-      <div className={css.icons}>
-        <a href="search">
-          <AiOutlineSearch size={'1.14em'} />
-        </a>
-        <a href="search">
-          <IoMdNotificationsOutline size={'1.14em'} />
-        </a>
-        <a href="search">
-          <AiOutlineUserAdd size={'1.14em'} />
-        </a>
-      </div>
-    </header>
+        <div className={css.text}>
+          {navItems.map(({ href, text }) => (
+            <NavItem to={href} key={href}>
+              {text}
+            </NavItem>
+          ))}
+        </div>
+        <div className={css.icons}>
+          <a href="search">
+            <AiOutlineSearch size={'1.14em'} />
+          </a>
+          <a href="search">
+            <IoMdNotificationsOutline size={'1.14em'} />
+          </a>
+          <a href="search">
+            <AiOutlineUserAdd size={'1.14em'} />
+          </a>
+        </div>
+      </header>
+    </HidingHeader>
   );
 };
 
