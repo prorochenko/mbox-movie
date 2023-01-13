@@ -48,9 +48,9 @@ const TrendingTV = () => {
           </a>
         </li>
       </ul>
-      <a href="trendingtv" target="_blank" className={css.btn}>
+      <button type="button" className={css.btn}>
         See more
-      </a>
+      </button>
     </div>
   );
 };
